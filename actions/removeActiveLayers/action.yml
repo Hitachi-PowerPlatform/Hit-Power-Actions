@@ -1,0 +1,22 @@
+name: 'Remove Active Layers of Workflows'
+description: 'Removes the active layers of workflows'
+runs:
+    using: 'node12'
+    main: 'index.js'
+inputs:
+  tenantId:  # id of tenant
+    description: 'ID of the tenant'
+    required: true
+  clientId:
+    description: 'ID of the client'
+    required: true
+  clientSecret: 
+    description: 'Secret of the client'
+    required: true
+  environmentUrl:
+    description: 'URL of the Environment'
+    required: true
+  filter: 
+    description: 'Filter of the flows'
+    required: true
+  

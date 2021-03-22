@@ -1,0 +1,30 @@
+name: 'Moves components from one solution to another'
+description: 'Runs a powershell script'
+runs:
+    using: 'node12'
+    main: 'index.js'
+inputs:
+  sourceSolutionName:  
+    description: 'Name of the Source Solution'
+    required: true
+  targetSolutionName:
+    description: 'Name of the target solution'
+    required: true
+  targetCRMURL:
+      description: 'URL of the target CRM'
+      required: true
+  userName:
+    description: 'User name of the user'
+    required: false
+  userPassword: 
+    description: 'Password of the user'
+    required: false
+  clientId: 
+    description: 'Client ID'
+    required: false
+  clientSecret: 
+    description: 'Client Secret'
+    required: false
+  authType: 
+    description: 'Type of Authentication'
+    required: false

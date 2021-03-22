@@ -1,0 +1,18 @@
+name: 'Moves components from one solution to another'
+description: 'Runs a powershell script'
+runs:
+    using: 'node12'
+    main: 'index.js'
+inputs:
+  flowid:  
+    description: 'Search Parameter of the flows'
+    required: true
+  user:
+    description: 'User name'
+    required: true
+  pass:
+    description: 'Password for the user account'
+    required: true
+  envName:
+    description: 'Environment Name to activate the flows'
+    required: true
