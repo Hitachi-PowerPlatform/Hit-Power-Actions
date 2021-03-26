@@ -31,7 +31,7 @@ try {
 
 function concatenate(flowid,user,pass,envName){
   var str = "";
-  var str = str.concat("\.\\actions\\enableMultipleFlows\\enablemultipleflows.ps1 -flowid " + flowid);
+  var str = str.concat("D:\\a\\_actions\\Hitachi-PowerPlatform\\Hit-Power-Actions\\v1\\actions\\enableMultipleFlows\\enablemultipleflows.ps1 -flowid " + flowid);
   var str = str.concat(" -pass " + pass);
   var str = str.concat(" -user " + user);
   var str = str.concat(" -envName " + envName);

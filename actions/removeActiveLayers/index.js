@@ -37,7 +37,7 @@ try {
 
 function concatenate(tenantId,clientID,clientSecret,environmentUrl,filter){
   var str = "";
-  var str = str.concat("\.\\actions\\removeActiveLayers\\RemoveLayer.ps1 -psTenantId " + tenantId);
+  var str = str.concat("D:\\a\\_actions\\Hitachi-PowerPlatform\\Hit-Power-Actions\\v1\\actions\\removeActiveLayers\\RemoveLayer.ps1 -psTenantId " + tenantId);
   var str = str.concat(" -psClientId " + clientID);
   var str = str.concat(" -psClientSecret " + clientSecret);
   var str = str.concat(" -psEnvironmentUrl "+ environmentUrl);

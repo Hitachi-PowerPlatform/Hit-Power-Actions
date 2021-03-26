@@ -1,0 +1,24 @@
+name: 'Share Canvas App with Multiple Users'
+description: 'Shares canvas app with users specified on a .csv file'
+runs:
+    using: 'node12'
+    main: 'index.js'
+inputs:
+  environmentID:  
+    description: 'ID of the Environment'
+    required: true
+  user:
+    description: 'User name'
+    required: true
+  pass: 
+    description: 'Password of the user'
+    required: true
+  canvasAppID:
+    description: 'ID of the Canvas App to be shared'
+    required: true
+  role: 
+    description: 'Role to share with the users'
+    required: true
+  filePath: 
+    description: 'Path to the file with the users emails'
+    required: true

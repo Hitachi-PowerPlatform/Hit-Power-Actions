@@ -44,7 +44,7 @@ try {
 
 function concatenate(sourceSolutionName,targetSolutionName,targetCRMurl,userName,userPassword,clientId,clientSecret,authType){
   var str = "";
-  var str = str.concat("\.\\actions\\moveSolutionComponents\\MoveComponents.ps1 -psSourceSolutionName " + sourceSolutionName);
+  var str = str.concat("D:\\a\\_actions\\Hitachi-PowerPlatform\\Hit-Power-Actions\\v1\\actions\\moveSolutionComponents\\MoveComponents.ps1 -psSourceSolutionName " + sourceSolutionName);
   var str = str.concat(" -psTargetSolutionName " + targetSolutionName);
   var str = str.concat(" -psTargetCRMurl " + targetCRMurl);
   var str = str.concat(" -psCRMusername " + userName);
